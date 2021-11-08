@@ -1,0 +1,612 @@
+html{
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #09090B;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    line-height: 37px; 
+}
+
+h1{
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+h2{
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    color:white;
+}
+
+h3{
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    color:white;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
+.div-center{
+    min-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+/* FIRST SECTION */
+
+.first-section{
+    min-height: 100vh;
+    scroll-snap-align: start;
+}
+
+/* Navbar */
+.navbar.navbar-expand-lg{
+    color: white;
+    margin-bottom: 13rem;
+}
+
+.nav-link.active{
+    color: white;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.375em;
+    opacity: 90%;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    padding:0;
+}
+
+.nav-link.active:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    display: block;
+    transition: all 0.3s ease;
+    bottom: 25%;
+  }
+  .nav-link.active:hover::after {
+    width: 95px;
+    height: 1px;
+    background-color: #fff;
+  }
+  
+
+.navbar-button{
+    transition: all .5s ease;
+    background-color: #4EA8DE;
+    border: 0;
+    padding: 0.813rem 2.25rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.375em;
+    border-radius: 39px;
+    margin-top: 1.27rem;
+}
+
+.navbar-button:hover{
+    background-color:white;
+    color:#09090B;
+}
+
+/* End of Navbar */
+
+
+/* Content */
+
+.circle-1{
+    width: 334px;
+    height: 334px;
+    border-radius: 334px;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    background: linear-gradient(135deg, #4ea8de, #7400b8, #4ea8de, #7400b8, #4ea8de);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: circle-1-animation 8s ease infinite;
+    -moz-animation: circle-1-animation 8s ease infinite;
+    animation: circle-1-animation 8s ease infinite;
+}
+
+/* Circle 1 animation */
+@-webkit-keyframes circle-1-animation {
+    0%{background-position:7% 0%}
+    50%{background-position:94% 100%}
+    100%{background-position:7% 0%}
+}
+@-moz-keyframes circle-1-animation {
+    0%{background-position:7% 0%}
+    50%{background-position:94% 100%}
+    100%{background-position:7% 0%}
+}
+@keyframes circle-1-animation {
+    0%{background-position:7% 0%}
+    50%{background-position:94% 100%}
+    100%{background-position:7% 0%}
+}
+/* End of Circle 1 animation */
+
+.heading{
+    padding-left: 11.5rem;
+}
+
+.h1-first{
+    font-size: 2em;
+    line-height: 143.7%;
+}
+
+.h1-second{
+    font-size: 3em;
+    line-height: 96%;
+}
+
+.h1-third{
+    font-size: 1em;
+    line-height: 66px;
+}
+
+.btn-heading-1{
+    transition: all .5s ease;
+    color: #09090B;
+    background-color: white;
+    border: 0;
+    border-radius: 70px;
+    padding: 1.75rem 3.94rem;
+    margin-left: 5rem;
+    margin-right: 4.37rem;
+    margin-top: 2.62rem;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.btn-heading-1:hover{
+    background-color: #4EA8DE;
+    color:white;
+}
+
+.btn-heading-2{
+    transition: all .5s ease;
+    background-color: #4EA8DE;
+    color: white;
+    border: 0;
+    border-radius: 70px;
+    padding: 1.75rem 2rem;
+    margin: 0;
+    margin-top: 2.62rem;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.btn-heading-2:hover{
+    background-color: white;
+    color: #09090B;
+}
+
+
+/* End of Content */
+
+/* END OF FIRST SECTION */
+
+
+/* SECOND SECTION */
+
+.second-section{
+    min-height: 100vh;
+    padding-top: 20rem;
+    scroll-snap-align: start;
+}
+
+.first-col{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.h2-first{
+    font-size: 2.5em;
+    line-height: 110px;
+}
+
+.h2-second{
+    font-size: 1.5em;
+    line-height: 133.1%;
+}
+
+.h2-third{
+    color:#4EA8DE;;
+}
+
+.title{
+    font-weight:700 ;
+    line-height: 70px;
+}
+
+.about-me{
+    font-size: 2.1em;
+    line-height: 37px;
+    text-align: justify;
+    line-height: 50px;
+}
+
+.circle-2{
+    width: 334px;
+    height: 334px;
+    border-radius: 334px;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    background:#4ea8de;
+    opacity: 40%;
+    margin-left: 20rem;
+}
+
+.logo-spot{
+    display:block;
+    color: white;
+    opacity: 80%;
+    font-size: 3em;
+}
+
+.icon-logo{
+    margin-right: 1rem;
+}
+
+.c{
+    display: inline;
+    font-size: 1em;
+    margin-right: 1rem;
+}
+
+/* END OF SECOND SECTION */
+
+
+/* THIRD SECTION */
+
+.third-section{
+    min-height: 100vh;
+    padding-top: 17rem;
+    scroll-snap-align: start;
+}
+
+h5{
+    font-size: 10em;
+    text-align: center;
+    color: white;
+}
+.fab .fa-linkedin:hover{
+    color:white;
+}
+
+h5:hover{
+    color:white;
+}
+
+.card-title:hover{
+    color:white;
+}
+
+.contact{
+    text-align: center;
+    padding-bottom: 5rem;
+    font-size: 5em;
+}
+
+.myspan {
+    display: block;
+    color: white;
+}
+
+.card-1{
+    background-color: transparent;
+    border: 0;
+    animation-duration: 2s;
+    animation-iteration-count: 
+    infinite;
+    transform-origin: bottom;
+    border-radius: 5rem;
+}
+
+.card-1:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10%); }
+  100% { transform: translateY(0); }
+}
+
+.card-2{
+    background-color: transparent;
+    border: 0;
+    animation-duration: 2s;
+    animation-iteration-count: 
+    infinite;
+    transform-origin: bottom;
+    border-radius: 5rem;
+}
+
+.card-2:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+.card-3{
+    background-color: transparent;
+    border: 0;
+    animation-duration: 2s;
+    animation-iteration-count: 
+    infinite;
+    transform-origin: bottom;
+    border-radius: 5rem;
+}
+
+.card-3:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+.copyright{
+    opacity: 70%;
+    text-align: center;
+    margin-top: 12rem;
+}
+/* END OF THIRD SECTION */
+
+/* Laptop Screen */
+@media only screen and (max-width: 1200px) {
+    .circle-2{
+        margin-left: 3rem;
+    }
+}
+
+
+/* Table sreens */
+@media only screen and (max-width: 991px){
+    /* FIRST SECTION */
+
+    .first-section{
+        min-height: auto;
+    }
+
+
+
+    /* Navbar */
+    .navbar.navbar-expand-lg{
+        color: white;
+        margin-bottom: 7rem;
+        text-align: center;
+    }
+    .nav-link.active{
+        margin-right: 0;
+        margin-top: 2rem;
+        padding:0;
+    }
+    .nav-link.active:after {
+        height: 0px;
+      }
+      .nav-link.active:hover::after {
+        width: 0px;
+        height: 0px;
+      }
+    /* End of Navbar */
+
+    /* Content */
+        .heading{
+    padding-left: 10rem;
+    padding-top: 1.5rem;
+    }
+
+    .circle-1{
+        width: 260px;
+        height: 260px;
+        border-radius: 260px;
+        position: absolute;
+        }
+
+
+.h1-first{
+    font-size: 1.5em;
+    line-height: 143.7%;
+}
+
+.h1-second{
+    font-size: 2em;
+    line-height: 96%;
+}
+
+.h1-third{
+    font-size: 1em;
+    line-height: 66px;
+}
+
+.btn-heading-1{
+    padding: 1.35rem 2.94rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.btn-heading-2{
+    padding: 1.35rem 1rem;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+/* End of Content */
+
+/* END OF FIRST SECTION */
+
+/* SECOND SECTION */
+
+.second-section{
+    min-height: auto;
+    padding-top: 20rem;
+    text-align: center;
+}
+
+.h2-first{
+    font-size: 2em;
+    line-height: 150%;
+}
+
+.h2-second{
+    font-size: 1.4em;
+}
+
+.h2-third{
+    color:#4EA8DE;
+}
+
+.about-me{
+    font-size: 1.8em;
+    line-height: 37px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.circle-2{
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+    overflow: hidden;
+    margin-left: 25rem;
+    margin-top: 3rem;
+}
+
+/* END OF SECOND SECTION */
+
+/* THIRD SECTION */
+
+.third-section{
+    min-height: auto;
+    padding-top: 17rem;
+}
+
+.contact{
+    font-size: 4em;
+}
+
+h5{
+    font-size: 7em;
+}
+
+/* END OF THIRD SECTION */
+}
+
+@media only screen and (max-width: 767px){
+        /* Content */
+        .heading{
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+    }
+
+    .circle-1{
+        width: 260px;
+        height: 260px;
+        border-radius: 260px;
+        position: absolute;
+        margin-left: -7rem;
+        }
+
+        .btn-heading-1{
+    padding: 1rem;
+    margin-left: 4rem;
+    margin-right: 0rem;
+    margin-top: 1rem;
+    font-size: 1.2em;
+    display: block;
+}
+
+.btn-heading-2{
+    padding: 1rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-size: 1.2em;
+    display: block;
+}
+
+.circle-2{
+    margin-left: 5rem;
+    margin-top: 7rem;
+}
+}
+
+/*Phone screens*/
+@media only screen and (max-width: 418px){
+    .heading{
+        padding-top: 3.5rem;
+        padding-left: 1.9rem;
+    }
+
+    .h1-first{
+        font-size: 1.2em;
+        line-height: 143.7%;
+    }
+    
+    .h1-second{
+        font-size: 1.6em;
+        line-height: 96%;
+    }
+    
+    .h1-third{
+        font-size: 0.7em;
+        line-height: 54px;
+    }
+
+    .circle-2{
+        margin-left: 4.5rem;
+        margin-top: 7rem;
+        }
+
+    .btn-heading-1{
+        margin-left: 5rem;
+    }
+    .btn-heading-2{
+        margin-left: 5rem;
+    }
+
+    .second-section{
+        margin-top: 10rem;
+        padding:0;
+    }
+
+    .third-section{
+        margin-top: 15rem;
+        padding:0;
+    }
+
+    .contact{
+        margin-top: 10rem;
+        padding-bottom: 2rem;
+        font-size: 3.5em;
+    }
+
+    .about-me{
+        font-size: 1.5em;
+    }
+
+    h5{
+        font-size: 4em;
+    }
+}
+
