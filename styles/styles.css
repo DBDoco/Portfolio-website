@@ -355,6 +355,10 @@ a:hover{
     .skills{
         grid-template-columns: 1fr;
     }
+
+    .skills-header{
+        font-size: 4em;
+    }
 }
 
 /* END OF SKILLS SECTION */
