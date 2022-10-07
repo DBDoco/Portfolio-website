@@ -65,6 +65,19 @@ gsap.from(".circle-2", {  scrollTrigger:{
     toggleActions:"restart none none restart"
 } ,duration: 0.5, opacity: 0 });
 
+gsap.from(".skills-header", { scrollTrigger:{
+    trigger:".skills-header",
+    toggleActions:"restart none none restart"
+} ,duration: 1.1, y: "-20%", ease: "sine" });
+gsap.from(".skills", {  scrollTrigger:{
+    trigger:".skills",
+    toggleActions:"restart none none restart"
+} ,duration: 1.1, y: "-20%", ease: "sine" });
+gsap.from(".skills", {  scrollTrigger:{
+    trigger:".skills",
+    toggleActions:"restart none none restart"
+} ,duration: 1, opacity: 0});
+
 gsap.from(".contact", { scrollTrigger:{
     trigger:".contact",
     toggleActions:"restart none none restart"
