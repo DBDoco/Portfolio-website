@@ -87,11 +87,3 @@ gsap.from(".contact", {  scrollTrigger:{
     toggleActions:"restart none none restart"
 } ,duration: 1, opacity: 0});
 
-gsap.from(".card", { scrollTrigger:{
-    trigger:".card",
-    toggleActions:"restart none none restart"
-} ,duration: 1.1, y: "-50%", ease: "sine" });
-gsap.from(".card", {  scrollTrigger:{
-    trigger:".card",
-    toggleActions:"restart none none restart"
-} ,duration: 1, opacity: 0});

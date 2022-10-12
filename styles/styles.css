@@ -283,7 +283,7 @@ a:hover{
 
 .skills-section{
     min-height: 100vh;
-    padding-top: 20rem;
+    padding-top: 10rem;
     scroll-snap-align: start;
 }
 
@@ -404,7 +404,6 @@ h5:hover{
     background-color: transparent;
     border: 0;
     transform-origin: bottom;
-    border-radius: 5rem;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -426,7 +425,6 @@ h5:hover{
     background-color: transparent;
     border: 0;
     transform-origin: bottom;
-    border-radius: 5rem;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -447,7 +445,6 @@ h5:hover{
     background-color: transparent;
     border: 0;
     transform-origin: bottom;
-    border-radius: 5rem;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
