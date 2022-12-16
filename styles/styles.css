@@ -819,6 +819,10 @@ h5{
         padding:0;
     }
 
+    .projects-card{
+        max-width: 280px;
+    }
+
     .contact-section{
         margin-top: 15rem;
         padding:0;
