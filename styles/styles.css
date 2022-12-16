@@ -335,7 +335,7 @@ a:hover{
 }
 
 .projects-card{
-    width: 380px;
+    max-width: 380px;
     padding: 15px;
     border: 1px solid white;
     border-radius: 20px;
