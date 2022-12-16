@@ -1,3 +1,4 @@
+/* Animations */
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.from(".nav-link", {  scrollTrigger:{
@@ -78,6 +79,15 @@ gsap.from(".skills", {  scrollTrigger:{
     toggleActions:"restart none none restart"
 } ,duration: 1, opacity: 0});
 
+gsap.from(".projects", { scrollTrigger:{
+    trigger:".projects",
+    toggleActions:"restart none none restart"
+} ,duration: 1.1, y: "-20%", ease: "sine" });
+gsap.from(".projects", {  scrollTrigger:{
+    trigger:".projects",
+    toggleActions:"restart none none restart"
+} ,duration: 1, opacity: 0});
+
 gsap.from(".contact", { scrollTrigger:{
     trigger:".contact",
     toggleActions:"restart none none restart"
@@ -87,3 +97,19 @@ gsap.from(".contact", {  scrollTrigger:{
     toggleActions:"restart none none restart"
 } ,duration: 1, opacity: 0});
 
+/* Project section filtering */
+$(document).on('click', '.projects-filter li', function(){
+    $(this).addClass('projects-filter-active').siblings().removeClass('projects-filter-active')
+})
+
+$(document).ready(function(){
+    $('.list').click(function(){
+        const value = $(this).attr('data-filter');
+        if(value=='all'){
+            $('.projects-box').show('1000');
+        } else{
+            $('.projects-box').not('.'+value).hide('1000');
+            $('.projects-box').filter('.'+value).show('1000');
+        }
+    })
+})
