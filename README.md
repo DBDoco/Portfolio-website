@@ -32,6 +32,3 @@ $ cd portfolio-development
 ```
 
 To view the page just open index.html in your favorite browser.
-
-## It's also hosted on GitHub Pages
-<a href="https://dbdoco.github.io/Portfolio-website/">View deployment</a>
