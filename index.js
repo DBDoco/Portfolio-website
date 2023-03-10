@@ -1,5 +1,6 @@
 /* Animations */
 AOS.init({
+    startEvent: 'load',
     duration: 800,
   });
 
