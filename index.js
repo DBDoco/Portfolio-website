@@ -1,8 +1,12 @@
 /* Animations */
-AOS.init({
-    startEvent: 'load',
-    duration: 800,
-  });
+window.addEventListener('load', () => {
+    AOS.init({
+        startEvent: 'load',
+        duration: 800,
+      });
+});
+
+
 
 /* Project section filtering */
 $(document).on('click', '.projects-filter li', function(){
