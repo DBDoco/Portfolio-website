@@ -6,7 +6,6 @@ window.addEventListener('load', () => {
     });
 });
 
-
 /* Project section filtering */
 $(document).on('click', '.projects-filter li', function () {
     $(this).addClass('projects-filter-active').siblings().removeClass('projects-filter-active')

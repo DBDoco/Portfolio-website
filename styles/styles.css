@@ -1,10 +1,10 @@
-html{
+html {
     scroll-behavior: smooth;
     max-width: 100%;
     overflow-x: hidden;
 }
 
-body{
+body {
     background-color: #09090B;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
@@ -13,59 +13,59 @@ body{
     overflow-x: hidden;
 }
 
-p{
+p {
     font-family: 'Roboto', sans-serif;
-    color:white;
-    line-height: 37px; 
+    color: white;
+    line-height: 37px;
 }
 
-h1{
+h1 {
     font-family: 'Heebo', sans-serif;
     font-weight: bold;
     color: white;
 }
 
-h2{
+h2 {
     font-family: 'Heebo', sans-serif;
     font-weight: bold;
-    color:white;
-}
-
-h3{
-    font-family: 'Heebo', sans-serif;
-    font-weight: bold;
-    color:white;
-}
-
-a{
     color: white;
 }
 
-a:hover{
+h3 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
     color: white;
 }
 
-.div-center{
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.div-center {
     min-width: 100px;
     margin-left: auto;
     margin-right: auto;
 }
 
- 
+
 /* HERO SECTION */
 
-.hero-section{
+.hero-section {
     min-height: 100vh;
     scroll-snap-align: start;
 }
 
 /* Navbar */
-.navbar.navbar-expand-lg{
+.navbar.navbar-expand-lg {
     color: white;
     margin-bottom: 13rem;
 }
 
-.nav-link.active{
+.nav-link.active {
     color: white;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
@@ -73,7 +73,7 @@ a:hover{
     opacity: 90%;
     margin-right: 3rem;
     margin-top: 2rem;
-    padding:0;
+    padding: 0;
 }
 
 .nav-link.active:after {
@@ -84,22 +84,23 @@ a:hover{
     display: block;
     transition: all 0.3s ease;
     bottom: 25%;
-  }
-  .nav-link.active:hover::after {
+}
+
+.nav-link.active:hover::after {
     width: 95px;
     height: 1px;
     background-color: #fff;
-  }
+}
 
-  .navbar-project.active:hover::after{
+.navbar-project.active:hover::after {
     width: 82px;
-  }
+}
 
-  .navbar-skill.active:hover::after{
+.navbar-skill.active:hover::after {
     width: 55px;
-  }
+}
 
-.navbar-button{
+.navbar-button {
     transition: all .5s ease;
     background-color: #4EA8DE;
     border: 0;
@@ -111,9 +112,9 @@ a:hover{
     margin-top: 1.27rem;
 }
 
-.navbar-button:hover{
-    background-color:white;
-    color:#09090B;
+.navbar-button:hover {
+    background-color: white;
+    color: #09090B;
 }
 
 /* End of Navbar */
@@ -121,7 +122,7 @@ a:hover{
 
 /* Content */
 
-.circle-1{
+.circle-1 {
     width: 334px;
     height: 334px;
     border-radius: 334px;
@@ -138,42 +139,69 @@ a:hover{
 
 /* Circle 1 animation */
 @-webkit-keyframes circle-1-animation {
-    0%{background-position:7% 0%}
-    50%{background-position:94% 100%}
-    100%{background-position:7% 0%}
+    0% {
+        background-position: 7% 0%
+    }
+
+    50% {
+        background-position: 94% 100%
+    }
+
+    100% {
+        background-position: 7% 0%
+    }
 }
+
 @-moz-keyframes circle-1-animation {
-    0%{background-position:7% 0%}
-    50%{background-position:94% 100%}
-    100%{background-position:7% 0%}
+    0% {
+        background-position: 7% 0%
+    }
+
+    50% {
+        background-position: 94% 100%
+    }
+
+    100% {
+        background-position: 7% 0%
+    }
 }
+
 @keyframes circle-1-animation {
-    0%{background-position:7% 0%}
-    50%{background-position:94% 100%}
-    100%{background-position:7% 0%}
+    0% {
+        background-position: 7% 0%
+    }
+
+    50% {
+        background-position: 94% 100%
+    }
+
+    100% {
+        background-position: 7% 0%
+    }
 }
+
 /* End of Circle 1 animation */
 
-.heading{
+.heading {
     padding-left: 11.5rem;
 }
 
-.h1-first{
+.h1-first {
     font-size: 2em;
     line-height: 143.7%;
 }
 
-.h1-second{
+.h1-second {
     font-size: 3em;
     line-height: 96%;
 }
 
-.h1-third{
+.h1-third {
     font-size: 1em;
     line-height: 66px;
 }
 
-.btn-heading-1{
+.btn-heading-1 {
     transition: all .5s ease;
     color: #09090B;
     background-color: white;
@@ -187,12 +215,12 @@ a:hover{
     font-size: 23px;
 }
 
-.btn-heading-1:hover{
+.btn-heading-1:hover {
     background-color: #4EA8DE;
-    color:white;
+    color: white;
 }
 
-.btn-heading-2{
+.btn-heading-2 {
     transition: all .5s ease;
     background-color: #4EA8DE;
     color: white;
@@ -205,7 +233,7 @@ a:hover{
     font-size: 23px;
 }
 
-.btn-heading-2:hover{
+.btn-heading-2:hover {
     background-color: white;
     color: #09090B;
 }
@@ -218,67 +246,68 @@ a:hover{
 
 /* ABOUT ME SECTION */
 
-.about-me-section{
+.about-me-section {
     min-height: 100vh;
     padding-top: 20rem;
     scroll-snap-align: start;
 }
 
-.first-col{
+.first-col {
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.h2-first{
+.h2-first {
     font-size: 2.5em;
     line-height: 110px;
 }
 
-.h2-second{
+.h2-second {
     font-size: 1.5em;
     line-height: 133.1%;
 }
 
-.h2-third{
-    color:#4EA8DE;;
+.h2-third {
+    color: #4EA8DE;
+    ;
 }
 
-.title{
-    font-weight:700 ;
+.title {
+    font-weight: 700;
     line-height: 70px;
 }
 
-.about-me{
+.about-me {
     font-size: 2.1em;
     line-height: 37px;
     text-align: justify;
     line-height: 50px;
 }
 
-.circle-2{
+.circle-2 {
     width: 334px;
     height: 334px;
     border-radius: 334px;
     position: absolute;
     z-index: -1;
     overflow: hidden;
-    background:#4ea8de;
+    background: #4ea8de;
     opacity: 40%;
     margin-left: 20rem;
 }
 
-.logo-spot{
-    display:block;
+.logo-spot {
+    display: block;
     color: white;
     opacity: 80%;
     font-size: 3em;
 }
 
-.icon-logo{
+.icon-logo {
     margin-right: 1rem;
 }
 
-.c{
+.c {
     display: inline;
     font-size: 1em;
     margin-right: 1rem;
@@ -289,7 +318,7 @@ a:hover{
 
 /* PROJECTS SECTION */
 
-.projects-section{
+.projects-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,7 +328,7 @@ a:hover{
     scroll-snap-align: start;
 }
 
-.projects-filter{
+.projects-filter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -307,10 +336,10 @@ a:hover{
     border-radius: 20px;
     flex-wrap: wrap;
     list-style-type: none;
-    padding: 10px 20px ;
+    padding: 10px 20px;
 }
 
-.projects-filter li{
+.projects-filter li {
     padding: 5px 20px;
     color: white;
     font-size: 1.5em;
@@ -320,12 +349,12 @@ a:hover{
     user-select: none;
 }
 
-.projects-filter-active{
+.projects-filter-active {
     background-color: #4EA8DE;
     border-radius: 20px;
 }
 
-.projects-container{
+.projects-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -334,7 +363,7 @@ a:hover{
     margin: auto;
 }
 
-.projects-card{
+.projects-card {
     max-width: 380px;
     padding: 15px;
     border: 1px solid white;
@@ -342,21 +371,21 @@ a:hover{
     margin: 20px;
 }
 
-.projects-card img{
+.projects-card img {
     width: 100%;
     height: 100%;
     overflow: hidden;
     border-radius: 5px;
 }
 
-.project-content{
+.project-content {
     position: relative;
     padding: 20px;
     color: white;
     transition: .5s;
 }
 
-.project-title{
+.project-title {
     margin-top: 20px;
     font-size: 2em;
     line-height: 50px;
@@ -365,24 +394,24 @@ a:hover{
     font-weight: 500;
 }
 
-.project-info{
-    margin:20px;
+.project-info {
+    margin: 20px;
     font-size: 1em;
     line-height: 30px;
     text-align: center;
 }
 
-.project-btn-grp{
+.project-btn-grp {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
 
-.single{
-    grid-template-columns: repeat(1,1fr);
+.single {
+    grid-template-columns: repeat(1, 1fr);
 }
 
-.btn-projects-1{
+.btn-projects-1 {
     border: 0;
     transition: all .5s ease;
     background-color: #4EA8DE;
@@ -390,7 +419,7 @@ a:hover{
     border-radius: 20px;
 }
 
-.btn-projects-2{
+.btn-projects-2 {
     border: 0;
     transition: all .5s ease;
     background-color: white;
@@ -398,14 +427,14 @@ a:hover{
     border-radius: 20px;
 }
 
-.btn-projects-1:hover{
+.btn-projects-1:hover {
     background-color: white;
     color: #09090B;
 }
 
-.btn-projects-2:hover{
+.btn-projects-2:hover {
     background-color: #4EA8DE;
-    color:white;
+    color: white;
 }
 
 /* END OF PROJECTS SECTION */
@@ -413,82 +442,82 @@ a:hover{
 
 /* SKILLS SECTION */
 
-.skills-section{
+.skills-section {
     min-height: 100vh;
     padding-top: 10rem;
     scroll-snap-align: start;
 }
 
-.skills-header{
+.skills-header {
     font-size: 5em;
     text-align: center;
-    padding:1.5rem;
+    padding: 1.5rem;
     margin-bottom: 5rem;
 }
 
-.skills{
+.skills {
     display: grid;
-    grid-gap:1rem;
+    grid-gap: 1rem;
     padding: 1rem;
     max-width: 200rem;
 }
 
-.set{
+.set {
     padding: 1.5rem;
     border-radius: 1rem;
     cursor: pointer;
 }
 
-.set span{
-    display:flex;
+.set span {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 5rem;
     height: 5rem;
     font-size: 3em;
     background-color: #4EA8DE;
-    color:white;
+    color: white;
     border-radius: 35%;
-    margin-inline:auto;
+    margin-inline: auto;
 }
 
-.set header{
+.set header {
     padding-block: 1.5rem;
     font-size: 1.5em;
-    color:white;
+    color: white;
     text-align: center;
 }
 
-.set .list{
+.set .list {
     padding-block: 0.5;
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1.75rem;
     text-transform: uppercase;
 }
 
-.set:hover{
-    box-shadow:0px 12px 16px white;
+.set:hover {
+    box-shadow: 0px 12px 16px white;
     transition: all 0.3s ease;
 }
 
-.set:hover .list{
+.set:hover .list {
     color: white;
     transition: all 0.3s ease;
 }
 
 
-@media screen and (min-width: 600px){
-    .skills{
-        grid-template-columns: repeat(5,1fr);
+@media screen and (min-width: 600px) {
+    .skills {
+        grid-template-columns: repeat(5, 1fr);
     }
 }
 
-@media screen and (max-width: 600px){
-    .skills{
+@media screen and (max-width: 600px) {
+    .skills {
         grid-template-columns: 1fr;
     }
 
-    .skills-header{
+    .skills-header {
         font-size: 4em;
     }
 }
@@ -498,30 +527,31 @@ a:hover{
 
 /* CONTACT SECTION */
 
-.contact-section{
+.contact-section {
     min-height: 100vh;
     padding-top: 17rem;
     scroll-snap-align: start;
 }
 
-h5{
+h5 {
     font-size: 10em;
     text-align: center;
     color: white;
 }
-.fab .fa-linkedin:hover{
-    color:white;
+
+.fab .fa-linkedin:hover {
+    color: white;
 }
 
-h5:hover{
-    color:white;
+h5:hover {
+    color: white;
 }
 
-.card-title:hover{
-    color:white;
+.card-title:hover {
+    color: white;
 }
 
-.contact{
+.contact {
     text-align: center;
     padding-bottom: 5rem;
     font-size: 5em;
@@ -532,7 +562,7 @@ h5:hover{
     color: white;
 }
 
-.card-1{
+.card-1 {
     background-color: transparent;
     border: 0;
     transform-origin: bottom;
@@ -553,7 +583,7 @@ h5:hover{
 }
 
 
-.card-2{
+.card-2 {
     background-color: transparent;
     border: 0;
     transform-origin: bottom;
@@ -568,12 +598,12 @@ h5:hover{
     transition-timing-function: ease-out;
 }
 
-.card-2:hover{
+.card-2:hover {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
 }
 
-.card-3{
+.card-3 {
     background-color: transparent;
     border: 0;
     transform-origin: bottom;
@@ -588,258 +618,264 @@ h5:hover{
     transition-timing-function: ease-out;
 }
 
-.card-3:hover{
+.card-3:hover {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
 }
 
-.copyright{
+.copyright {
     opacity: 70%;
     text-align: center;
     margin-top: 12rem;
 }
+
 /* END OF CONTACT SECTION */
 
 /* Laptop Screen */
 @media only screen and (max-width: 1200px) {
-    .circle-2{
+    .circle-2 {
         margin-left: 3rem;
     }
 }
 
 
 /* Table sreens */
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 991px) {
     /* HERO SECTION */
 
-    .hero-section{
+    .hero-section {
         min-height: auto;
     }
 
 
 
     /* Navbar */
-    .navbar.navbar-expand-lg{
+    .navbar.navbar-expand-lg {
         color: white;
         margin-bottom: 7rem;
         text-align: center;
     }
-    .nav-link.active{
+
+    .nav-link.active {
         margin-right: 0;
         margin-top: 2rem;
-        padding:0;
+        padding: 0;
     }
+
     .nav-link.active:after {
         height: 0px;
-      }
-      .nav-link.active:hover::after {
+    }
+
+    .nav-link.active:hover::after {
         width: 0px;
         height: 0px;
-      }
+    }
+
     /* End of Navbar */
 
     /* Content */
-        .heading{
-    padding-left: 10rem;
-    padding-top: 1.5rem;
+    .heading {
+        padding-left: 10rem;
+        padding-top: 1.5rem;
     }
 
-    .circle-1{
+    .circle-1 {
         width: 260px;
         height: 260px;
         border-radius: 260px;
         position: absolute;
-        }
-
-
-.h1-first{
-    font-size: 1.5em;
-    line-height: 143.7%;
-}
-
-.h1-second{
-    font-size: 2em;
-    line-height: 96%;
-}
-
-.h1-third{
-    font-size: 1em;
-    line-height: 66px;
-}
-
-.btn-heading-1{
-    padding: 1.35rem 2.94rem;
-    margin-left: 1rem;
-    margin-right: 2rem;
-    margin-top: 1rem;
-}
-
-.btn-heading-2{
-    padding: 1.35rem 1rem;
-    margin: 0;
-    margin-top: 1rem;
-}
-
-/* End of Content */
-
-/* END OF HERO SECTION */
-
-/* ABOUT ME SECTION */
-
-.about-me-section{
-    min-height: auto;
-    padding-top: 20rem;
-    text-align: center;
-}
-
-.h2-first{
-    font-size: 2em;
-    line-height: 150%;
-}
-
-.h2-second{
-    font-size: 1.4em;
-}
-
-.h2-third{
-    color:#4EA8DE;
-}
-
-.about-me{
-    font-size: 1.8em;
-    line-height: 37px;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.circle-2{
-    width: 230px;
-    height: 230px;
-    border-radius: 230px;
-    overflow: hidden;
-    margin-left: 25rem;
-    margin-top: 3rem;
-}
-
-/* END OF ABOUT ME SECTION */
-
-
-/* CONTACT SECTION */
-
-.contact-section{
-    min-height: auto;
-    padding-top: 17rem;
-}
-
-.contact{
-    font-size: 4em;
-}
-
-h5{
-    font-size: 7em;
-}
-
-/* END OF CONTACT SECTION */
-}
-
-@media only screen and (max-width: 767px){
-        /* Content */
-        .heading{
-    padding-left: 3rem;
-    padding-top: 1.5rem;
     }
 
-    .circle-1{
+
+    .h1-first {
+        font-size: 1.5em;
+        line-height: 143.7%;
+    }
+
+    .h1-second {
+        font-size: 2em;
+        line-height: 96%;
+    }
+
+    .h1-third {
+        font-size: 1em;
+        line-height: 66px;
+    }
+
+    .btn-heading-1 {
+        padding: 1.35rem 2.94rem;
+        margin-left: 1rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+    }
+
+    .btn-heading-2 {
+        padding: 1.35rem 1rem;
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    /* End of Content */
+
+    /* END OF HERO SECTION */
+
+    /* ABOUT ME SECTION */
+
+    .about-me-section {
+        min-height: auto;
+        padding-top: 20rem;
+        text-align: center;
+    }
+
+    .h2-first {
+        font-size: 2em;
+        line-height: 150%;
+    }
+
+    .h2-second {
+        font-size: 1.4em;
+    }
+
+    .h2-third {
+        color: #4EA8DE;
+    }
+
+    .about-me {
+        font-size: 1.8em;
+        line-height: 37px;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .circle-2 {
+        width: 230px;
+        height: 230px;
+        border-radius: 230px;
+        overflow: hidden;
+        margin-left: 25rem;
+        margin-top: 3rem;
+    }
+
+    /* END OF ABOUT ME SECTION */
+
+
+    /* CONTACT SECTION */
+
+    .contact-section {
+        min-height: auto;
+        padding-top: 17rem;
+    }
+
+    .contact {
+        font-size: 4em;
+    }
+
+    h5 {
+        font-size: 7em;
+    }
+
+    /* END OF CONTACT SECTION */
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* Content */
+    .heading {
+        padding-left: 3rem;
+        padding-top: 1.5rem;
+    }
+
+    .circle-1 {
         width: 260px;
         height: 260px;
         border-radius: 260px;
         position: absolute;
         margin-left: -7rem;
-        }
+    }
 
-        .btn-heading-1{
-    padding: 1rem;
-    margin-left: 4rem;
-    margin-right: 0rem;
-    margin-top: 1rem;
-    font-size: 1.2em;
-    display: block;
-}
+    .btn-heading-1 {
+        padding: 1rem;
+        margin-left: 4rem;
+        margin-right: 0rem;
+        margin-top: 1rem;
+        font-size: 1.2em;
+        display: block;
+    }
 
-.btn-heading-2{
-    padding: 1rem;
-    margin-left: 4rem;
-    margin-top: 1rem;
-    font-size: 1.2em;
-    display: block;
-}
+    .btn-heading-2 {
+        padding: 1rem;
+        margin-left: 4rem;
+        margin-top: 1rem;
+        font-size: 1.2em;
+        display: block;
+    }
 
-.circle-2{
-    margin-left: 5rem;
-    margin-top: 7rem;
-}
+    .circle-2 {
+        margin-left: 5rem;
+        margin-top: 7rem;
+    }
 }
 
 /*Phone screens*/
-@media only screen and (max-width: 418px){
-    .heading{
+@media only screen and (max-width: 418px) {
+    .heading {
         padding-top: 3.5rem;
         padding-left: 1.9rem;
     }
 
-    .h1-first{
+    .h1-first {
         font-size: 1.2em;
         line-height: 143.7%;
     }
-    
-    .h1-second{
+
+    .h1-second {
         font-size: 1.6em;
         line-height: 96%;
     }
-    
-    .h1-third{
+
+    .h1-third {
         font-size: 0.7em;
         line-height: 54px;
     }
 
-    .circle-2{
+    .circle-2 {
         margin-left: 4.5rem;
         margin-top: 7rem;
-        }
-
-    .btn-heading-1{
-        margin-left: 5rem;
     }
-    .btn-heading-2{
+
+    .btn-heading-1 {
         margin-left: 5rem;
     }
 
-    .about-me-section{
+    .btn-heading-2 {
+        margin-left: 5rem;
+    }
+
+    .about-me-section {
         margin-top: 10rem;
-        padding:0;
+        padding: 0;
     }
 
-    .projects-card{
+    .projects-card {
         max-width: 280px;
     }
 
-    .contact-section{
+    .contact-section {
         margin-top: 15rem;
-        padding:0;
+        padding: 0;
     }
 
-    .contact{
+    .contact {
         margin-top: 10rem;
         padding-bottom: 2rem;
         font-size: 3.5em;
     }
 
-    .about-me{
+    .about-me {
         font-size: 1.5em;
     }
 
-    h5{
+    h5 {
         font-size: 4em;
     }
 }
-
