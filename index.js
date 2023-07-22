@@ -22,3 +22,8 @@ $(document).ready(function () {
         }
     })
 })
+
+/* Get current year */
+const currentYearElement = document.getElementById("currentYear");
+const currentYear = new Date().getFullYear();
+currentYearElement.textContent = `Copyright © ${currentYear} Dominik Bedenic. All rights reserved.`;
