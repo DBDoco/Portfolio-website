@@ -446,6 +446,7 @@ a:hover {
     min-height: 100vh;
     padding-top: 10rem;
     scroll-snap-align: start;
+    color: rgb(180, 180, 180);
 }
 
 .skills-header {
@@ -493,6 +494,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1.75rem;
     text-transform: uppercase;
+    pointer-events:none
 }
 
 .set:hover {
@@ -505,6 +507,9 @@ a:hover {
     transition: all 0.3s ease;
 }
 
+.bx{
+    font-size: 1.2em;
+}
 
 @media screen and (min-width: 600px) {
     .skills {
